@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="Styles/bootstrap.css" rel="stylesheet" />
+  
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class=" col-lg-6  border border-5 rounded rounded-5 shadow shadow-lg"    >
+                <div class="display-3 text-center">Login Page</div>
+                <form>
+                    <div class="p-4">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Id</label>
+                            <input class="form-control" type="text" id="email" required />
+                        </div>
+                       
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input class="form-control" type="password" id="password" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="ddlUser" class="form-label">User Type</label>
+                            <select id="ddlUser" class="form-select">
+                                <option selected disabled>--Select---</option>
+                                <option>Admin</option>
+                                <option>Executive</option>
+                                <option>Employee</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                             <div class="form-check" >
+                                <input id="chkRemember" type="checkbox" class="form-check-input"  />
+                                <label class="form-check-label" for="chkRemember"> Remember Password</label>
+                              </div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-outline-primary">Sign</button>
+                            <button type="reset" class="btn btn-outline-primary">Reset</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col ms-3">
+                <div class="h4">Products</div>
+                <ul class="list-group">
+                    <li class="list-group-item">Laptop</li>
+                    <li class="list-group-item">Phone</li>
+                    <li class="list-group-item">PC</li>
+                    <li class="list-group-item">Mouser</li>
+
+                </ul>
+            </div>
+          
+        </div>
+    </div>
+   
+</body>
+</html>

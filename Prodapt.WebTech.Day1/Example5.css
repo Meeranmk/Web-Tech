@@ -1,0 +1,22 @@
+﻿body {
+    margin: 50px auto;
+    width: 80%;
+}
+
+.content {
+    border: solid;
+    padding: 10px;
+    text-align: justify;
+    width: 500px;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.divImg {
+    background: url(Images/pic1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 100px;
+    overflow-y: scroll;
+}

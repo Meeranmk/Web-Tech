@@ -1,0 +1,54 @@
+﻿html {
+       background-color:bisque;
+}
+body{
+    width:800px;
+    margin:10px auto;
+    background-color:aquamarine;
+}
+h1{
+    color:darkblue;
+    text-align: center;
+}
+label {
+    
+    color: #1824e4;
+    font-size: 25px;
+    
+}
+
+label:hover{
+    cursor:auto;
+    color:darkgoldenrod;
+
+}
+
+#bankName, #branchName {
+    color: cadetblue;
+    font-size: 25px;
+   
+}
+
+
+#region{
+    width: 320px;
+}
+
+#zipCode, #city{
+    width: 100%;
+}
+
+#submitBtn{
+    color: limegreen;
+}
+#resetBtn{
+    color:red;
+}
+
+input[type="submit"]{
+    border:1px solid;
+    border-radius: 10px;
+    padding:5px;
+    background-color:#4b8a28;
+    color:white;
+}

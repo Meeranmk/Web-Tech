@@ -1,0 +1,15 @@
+﻿.d1, span{
+    padding:10px;
+}
+
+.d1{
+    background-color:yellow;
+    margin: 5px;
+    display:flex;
+}
+
+.d1 span{
+    background-color:blue;
+    color:white;
+
+}

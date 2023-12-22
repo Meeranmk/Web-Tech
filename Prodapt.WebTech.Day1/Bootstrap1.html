@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!--<link href="Styles/bootstrap.css" rel="stylesheet" />-->
+    <!--<link href="Styles/bootstrap11.css" rel="stylesheet" />-->
+    <link href="Styles/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="conatiner">
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" data-bs-target="#navbar1" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link navbar-brand" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link navbar-brand" href="#">Mobiles</a></li>
+                    <li class="nav-item"><a class="nav-link navbar-brand" href="#">Electronics</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <div class="row">
+            <div class="col-lg-3"></div>
+                <div class="col-lg-6">
+                    <div class="input-group">
+                        <input type="text" class="form-control form-control-lg" />
+                        <span class="input-group-text">
+                            <i class="bi bi-search"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!--<nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            Home
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>-->
+
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class=" col-lg-6  border border-8 rounded rounded-5 shadow shadow-lg">
+
+                    <div class="h3 text-center">Registration Page</div>
+                    <form>
+                        <div class="p-5">
+                            <div class="mb-3">
+                                <label for="firstname" class="form-label">First Name</label>
+                                <input class="form-control" type="text" id="firstname" required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="lastname" class="form-label">Last Name</label>
+                                <input class="form-control" type="text" id="lastname" required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Id</label>
+                                <input class="form-control" type="text" id="email" required />
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input class="form-control" type="password" id="password" required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="ddlUser" class="form-label">User Type</label>
+                                <select id="ddlUser" class="form-select">
+                                    <option selected disabled>--Select---</option>
+                                    <option>Admin</option>
+                                    <option>Executive</option>
+                                    <option>Employee</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-control">
+                                    <fieldset>
+                                        <legend>
+                                            Gender
+                                        </legend>
+                                        <input type="radio" name="gender" id="male" width="15" />Male
+                                        <input type="radio" name="gender" id="  female" />Female
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-control">
+                                    <fieldset>
+                                        <legend>
+                                            Preferrences
+                                        </legend>
+                                        <div>
+                                            <input type="checkbox" id="cFull" />Full-time
+                                            <input type="checkbox" id="cPart" />Part-time
+                                            <input type="checkbox" id="c4" />4hrs Only
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-control">
+                                    <fieldset>
+                                        <legend>
+                                            Date Of Birth
+                                        </legend>
+                                        <div>
+                                            <input type="date" id="dob" />
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-control">
+                                    <fieldset>
+                                        <legend>
+                                            Address
+                                        </legend>
+                                        <div>
+                                            <textarea rows="3" cols="50"></textarea>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-control">
+                                    <fieldset>
+                                        <legend>
+                                            Upload a photo
+                                        </legend>
+                                        <div>
+                                            <input type="file" />
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-outline-primary">Sumbit</button>
+                                    <button type="reset" class="btn btn-outline-danger">Reset</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    <script src="Scripts/bootstrap.js"></script>
+</body>
+</html>

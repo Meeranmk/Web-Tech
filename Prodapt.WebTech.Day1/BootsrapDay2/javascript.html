@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../Styles/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="conatiner">
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-4">
+                <div class="mb-3">
+                    <label class="form-label">Enter a Number: </label>
+                    <input type="text" id="num1" class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Enter a Number: </label>
+                    <input type="text" id="num2" class="form-control" />
+                </div>
+
+                <div class="mt-2">
+                    <button class="btn btn-primary" onclick="addNumber()">Add Number</button>
+                </div>
+                <div class="mt-3">
+                    <h2 id="result"></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        //function add(a, b) {
+        //    //let a = prompt ("Enter  a Number");
+        //    let  c = Number(a) + b;
+        //    console.log(c);
+        //    alert("Output: " + c);
+        //    if (confirm("Do you want to delete ?")) {
+        //        alert("Product Deleted");
+        //    }
+        //    else {
+        //        alert("Thank you for saving the product");
+        //    }
+        //}
+
+        //add(50, 50);
+
+        function addNumber() {
+            let n1 = document.getElementById("num1");
+            let n2 = document.getElementById("num2");
+            let res = document.getElementById("result");
+
+            if (n1.value === "") {
+                n1.classList.add("is-invalid");
+
+            }
+            if (n2.value === "") {
+                n2.classList.add("is-invalid");
+            }
+            else {
+                let sum = Number(n1.value) + Number(n2.value);
+                res.innerHTML = "Output: " + sum;
+                n1.classList.remove("is-invalid");
+                n2.classList.remove("is-invalid");
+            }
+        }
+    </script>
+</body>
+</html>

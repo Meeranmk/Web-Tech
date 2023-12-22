@@ -1,0 +1,21 @@
+﻿body {
+}
+
+.dd {
+    text-align: justify;
+    border: 1px solid grey;
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.img {
+    background: url("../Images/pic3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin:auto;
+    width: 400px;
+    height: 200px;
+    opacity: 0.9;
+}
